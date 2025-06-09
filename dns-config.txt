@@ -1,0 +1,22 @@
+# Configuração de DNS para conectar o domínio ao GitHub Pages
+
+## Registro A (Aponta o domínio raiz para GitHub Pages)
+Tipo: A
+Nome: @
+Valor: 185.199.108.153
+Valor: 185.199.109.153
+Valor: 185.199.110.153
+Valor: 185.199.111.153
+TTL: Padrão (600 ou 3600 segundos)
+
+## Registro CNAME (Aponta www para GitHub Pages)
+Tipo: CNAME
+Nome: www
+Valor: seu-usuario.github.io
+TTL: Padrão
+
+## Registro TXT (Opcional, para verificação de propriedade)
+Tipo: TXT
+Nome: @
+Valor: v=DMARC1; p=reject; adkim=r; aspf=r; rua=mailto:dmarc_rua@onsecureserver.net;
+TTL: Padrão
