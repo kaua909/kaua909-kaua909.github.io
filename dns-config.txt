@@ -12,7 +12,7 @@ TTL: Padrão (600 ou 3600 segundos)
 ## Registro CNAME (Aponta www para GitHub Pages)
 Tipo: CNAME
 Nome: www
-Valor: seu-usuario.github.io
+Valor: kaua909.github.io
 TTL: Padrão
 
 ## Registro TXT (Opcional, para verificação de propriedade)
